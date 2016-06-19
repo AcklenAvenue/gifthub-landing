@@ -89,7 +89,7 @@
 
 .separator{
     background-color: white;
-    height: 150px;
+    height: 70px;
 }
 
 .download{
@@ -147,5 +147,16 @@ span>a:hover{
     color: white;
     font-size: 40px;
     margin: 5% 0;
+}
+
+.pageFooter{
+    height: 100px;
+    width: 100%;
+    background-color: #68503d;
+    color: white;   
+}
+
+.footerContent{
+    margin-top: 4%;
 }
 
