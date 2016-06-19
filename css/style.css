@@ -1,0 +1,151 @@
+ @font-face { font-family: Bakery; src: url('../fonts/bakery.ttf'); } 
+
+.navbar-logo{
+    height: 80px;
+    width: 80px;
+}
+
+.navbar-brand{
+    padding: 0;
+}
+
+.nav{
+    
+    margin: 0;
+}
+
+.navbar{
+    background-color: rgba(0,0,0,0);
+    border: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 26.4px;
+}
+
+.navLink{
+    margin-top:7px;
+}
+.landing-head{
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN8mxZaDwAGGQIp8zd0HwAAAABJRU5ErkJggg==), url("../img/background1.jpeg");
+    background-size: 100%;
+    height: 550px;
+    width: 100%;
+    padding: 12% 30%;
+    font-family: Bakery;
+    font-size: 74px;
+    line-height:85%;
+    color: white;
+}
+
+.about{
+    margin: 3% 15% 0 15%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 26.4px;
+}
+
+.biggerText {
+    font-size: 104px;
+    line-height:85%;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.mockups{
+    height: 500px;
+}
+
+
+.aboutTitle{
+    margin: 10px 0;
+    color: #897668;
+    font-size: 25px;
+    font-weight: thin;
+    font-variant: small-caps;
+
+}
+
+.appName{
+    margin: 10px 0;
+    color: #68503d;
+    font-size: 55px;
+    font-weight: bolder;
+    font-variant: normal;
+}
+
+.appDescription{
+    margin: 50px 0 0 0;
+    color: #ed6655;
+    font-size: 25px;
+    font-weight: 400;
+    font-variant: normal;
+}
+
+.separator{
+    background-color: white;
+    height: 150px;
+}
+
+.download{
+    height: 500px;
+    width: 100%;
+    margin-top:3%;
+    padding: 7% 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 26.4px;
+    color: white;
+    background-color: #ed6644;
+}
+
+.downloadTitle{
+    font-size: 40px;
+}
+
+.downloadContent{
+    margin: 50px 20%;
+    font-size: 20px;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+.store{
+    height: 100px;
+    width: auto;
+}
+
+span>a{
+    color: white;
+}
+
+span>a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.contact{
+    height: 750px;
+    background-image: url('../img/background3.png');
+    padding: 5% 10%;
+    color: white;
+}
+
+.contactTitle{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 26.4px;
+    color: white;
+    font-size: 40px;
+    margin: 5% 0;
+}
+
