@@ -15,6 +15,8 @@
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Sweet alert -->
+    <link href="css/sweetalert.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
 
@@ -150,9 +152,9 @@
                     <p> Sign Up</p>
                     <div class="form-group">
                         <label for="exampleInputEmail2"></label>
-                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email">
+                        <input type="email" class="form-control" id="exampleInputEmail2" name="email" placeholder="Email">
                     </div>
-                    <button type="submit" class="btn btn-default">Sign Up</button>
+                    <button type="button" class="btn btn-default" onclick="submitEmail()">Sign Up</button>
                 </form>
                 <div class="fb-icon">
                     <p>Find Us</p>
@@ -181,9 +183,24 @@
 
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
-
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
+<!-- Sweet alert-->
+<script src="js/sweetalert.min.js"></script>
+<script>
+    var submitEmail = function(){
+        var email = $('#exampleInputEmail2').val();
+        $.ajax({
+            type: "POST",
+            url: "https://gifthub-data.herokuapp.com/email",
+            data: {email: email},
+            success: swal("Thanks for signing up!!", "We're excited to have on our group of early beta testers. As soon as the app has launched, we expect to see you unwrapping your gifts and sending some to those you hold dearest! In the meantime, we would love to hear what you think about our app idea!", "success"),
+            error: sweetAlert("Oops...", "We couldn't save your email. Please try again in a minute", "error"),
+            crossDomain: true,
+            dataType: "json"
+        });
+    }
+</script>
 
 
 </body>
