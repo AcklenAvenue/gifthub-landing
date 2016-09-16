@@ -194,10 +194,15 @@
             type: "POST",
             url: "https://gifthub-data.herokuapp.com/email",
             data: {email: email},
-            success: swal("Thanks for signing up!!", "We're excited to have on our group of early beta testers. As soon as the app has launched, we expect to see you unwrapping your gifts and sending some to those you hold dearest! In the meantime, we would love to hear what you think about our app idea!", "success"),
-            error: sweetAlert("Oops...", "We couldn't save your email. Please try again in a minute", "error"),
-            crossDomain: true,
-            dataType: "json"
+            success: function(response){
+                swal("Thanks for signing up!!", "We're excited to have on our group of early beta testers. As soon as the app has launched, we expect to see you unwrapping your gifts and sending some to those you hold dearest! In the meantime, we would love to hear what you think about our app idea!", "success");
+                $('#exampleInputEmail2').val("");
+            },
+            error: function(error){
+                console.log(error)
+                sweetAlert("Oops...", "We couldn't save your email. Please try again in a minute", "error")
+            },
+            crossDomain: true
         });
     }
 </script>
