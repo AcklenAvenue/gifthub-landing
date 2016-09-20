@@ -146,7 +146,7 @@ p
 }
 
 .howworks-icon {
-   width: 64px;
+   width: 100px;
    display: block;
    margin: 0 auto;
 }
@@ -194,14 +194,14 @@ p
 }
 
 .features h2{
-    color: #200809;
+    color: white;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     text-align: center;
     font-size: 38px;
 }
 
 .features p{
-    color: #ffffff;
+    color: #F2E8E2;
     font-size: 18px;
     line-height: 20px;
     text-align: left;
@@ -217,8 +217,8 @@ p
 
 .lists  {
     width: 400px;
-    margin:0 auto; 
-    padding: 40px 0px;
+    margin:0 auto;
+    padding: 60px 0px;
 }
 
 .lists li{
@@ -226,16 +226,16 @@ p
 }
 
 .lists h3 {
-    color: #EAC8BB;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6)
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
 ul {
-    list-style-type:disc; 
+    list-style-image:url(../img/gift4.png); 
     color: #EDD0C5;
 }
 .wish img{
-    width: 40px;
+    width: 60px;
 }
 
 .section-heading {
@@ -374,12 +374,11 @@ ul {
 } 
 
 .form-inline p{
-    font-family: Pacifico;
-    
+    font-family: Roboto;
     font-size: 18px;
     text-align: left;
-
 }
+
 .btn {
     background:#F17361;
     border-radius: 5px;
