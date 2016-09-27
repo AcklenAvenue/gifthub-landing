@@ -26,10 +26,6 @@ p
     font-weight: 300;
 }
 
-.Icons{
-    padding-top: 10%;
-    margin-top: 5%; 
-}
 
 .topnav {
     font-size: 14px; 
@@ -67,6 +63,7 @@ p
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     padding-bottom:20px;
+    font-size: 28px;
 }
 .intro-divider {
     width: 400px;
@@ -90,11 +87,6 @@ p
     width: 210px;
     height: 180px;
     margin-bottom: -5%;
-} 
-
-.icon-goo img{
-    width: 135px;
-    height: 40px;
 } 
 
 @media(max-width:767px) {
@@ -123,7 +115,6 @@ p
 
     }
 }
-
 
 .network-name {
     text-transform: uppercase;
@@ -231,7 +222,7 @@ p
 }
 
 ul {
-    list-style-image:url(../img/gift4.png); 
+    list-style-image:url(../img/icon_gift.png); 
     color: #EDD0C5;
 }
 .wish img{
