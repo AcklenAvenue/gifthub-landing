@@ -4,8 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
-body,
-html {
+ body,
+ html {
     width: 100%;
     height: 100%;
 }
@@ -13,13 +13,13 @@ html {
 body,
 h1,
 h2
-  {
+{
     font-family: 'Pacifico', cursive;
-   
-    }
+
+}
 h3
-    {font-family: 'Roboto', sans-serif;
-    font-weight: 700; }
+{font-family: 'Roboto', sans-serif;
+font-weight: 700; }
 p 
 {
     font-family: 'Roboto', sans-serif;
@@ -79,7 +79,7 @@ p
 }
 .iphone img{
     display: block;
-    width: 400px;
+    width: 100%;
     margin: 0 auto;
 } 
 
@@ -137,14 +137,20 @@ p
 }
 
 .howworks-icon {
-   width: 100px;
-   display: block;
-   margin: 0 auto;
+ width: 124px;
+ display: block;
+ margin: 0 auto;
+}
+
+.howworks-icon3{
+    width: 95px;
+    display: block;
+    margin: 0 auto;
 }
 
 .howworks h2,p {
-   text-align: center;
-   color:#ffffff;
+ text-align: center;
+ color:#ffffff;
 }
 
 .multi_bg_example {
@@ -159,7 +165,7 @@ p
 .mockups{
     display: block;
     margin: 0 auto;
-    max-width: 700px;
+    width: 100%;
     height: auto;
 }
 
@@ -207,13 +213,8 @@ p
 }
 
 .lists  {
-    width: 400px;
     margin:0 auto;
     padding: 60px 0px;
-}
-
-.lists li{
-    width: 400px;
 }
 
 .lists h3 {
@@ -234,19 +235,15 @@ ul {
 
 }
 .img-container{
-  max-width: 250px;
-  display: block;
-  margin:0 auto;
-  padding: 60px 0px;  
+    margin:0 auto;
+    padding: 60px 0px;  
 }
 
 .img-responsive{
-    display: block;
     max-width: 100%;
     height: auto;
-    padding-bottom: 30px;
-    width: 250px;
-   } 
+    padding: 0 40px;
+} 
 
 .signup {
     padding: 50px 0 0 0;
@@ -269,31 +266,28 @@ ul {
     padding-top: 20px;
 }
 
- .signup p{
+.signup p{
     color: #EF756B;
     padding-top: 15px;
     font-size: 13px;
 }  
 
- .signup img{
-    width: 32px;
-    text-align: center;
-    padding-top: 3px;
-    padding-bottom: 50px;
-    display: block;
-    margin: auto;
-}
-
 .signup a{
     margin: auto;
 }
 
+.fb-icon{
+    text-align: center;
+} 
+
 .fb-icon p{
     color: #EF756B;
-    padding-top: 70px;
-    margin-bottom: 5px;
 }
-    
+
+.icon img{
+    width: 32px;
+}
+
 .input-group {
     position: relative;
     display: table;
@@ -340,13 +334,13 @@ ul {
 .submit a{
     /* margin:auto; */
 } 
- .button:hover {
+.button:hover {
     background: #DB6A5E;
     color: #ffffff;
     text-decoration: none;
- } 
+} 
 
- a.button {
+a.button {
     color: #ffffff;
     text-decoration: none;
     width: 200px;
@@ -354,9 +348,9 @@ ul {
     display: block;
     margin: auto;
     text-align: center;
-  }  
+}  
 
-  .form-inline{
+.form-inline{
     width: 405px;
     font-family: Roboto;
     color: #E87064;
@@ -388,7 +382,7 @@ ul {
     text-decoration: none;
 }
 .gn p{
-   color: :#E87064; 
+ color: :#E87064; 
 }
 
 .glyphicon{
@@ -402,9 +396,33 @@ ul {
     width: 80px;
 }
 
-@media only screen and (max-width: 500px){
+.contact{
+    padding: 100px 0px;
+}
 
+.stores{
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+}
+
+.stores li{
+    width: 150px;
+    display: inline-block;
+
+}
+
+
+
+@media only screen and (max-width: 500px){
+    .form-control{
+        width: 335px;
     }
+
+    .form-inline {
+        width: 335px;
+    }
+}
 
 @media(max-width:1199px) {
     ul.banner-social-buttons {
