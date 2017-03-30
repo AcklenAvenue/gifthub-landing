@@ -189,6 +189,11 @@
 <!-- Sweet alert-->
 <script src="js/sweetalert.min.js"></script>
 <script>
+
+    if (navigator.userAgent.match(/Android/i) && window.location.hash.indexOf('wishlist') !== -1) {
+        window.location.href = 'https://play.google.com/store/apps/details?id=com.acklenavenue.gifthub&hl=en'
+    }
+    
     var submitEmail = function(){
         var email = $('#exampleInputEmail2').val();
         $.ajax({
