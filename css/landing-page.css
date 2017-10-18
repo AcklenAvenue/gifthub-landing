@@ -19,7 +19,10 @@ h2
 }
 h3
 {font-family: 'Roboto', sans-serif;
-font-weight: 700; }
+font-weight: 500; }
+h4
+{font-family: 'Roboto', sans-serif;
+    font-weight: 100; }
 p 
 {
     font-family: 'Roboto', sans-serif;
@@ -42,9 +45,62 @@ p
     padding-bottom: 0;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/header_bg.svg) no-repeat center center;
+    background: url(../img/section1Background.png) no-repeat center center;
     background-size: cover;
 
+}
+
+.email-input {
+    background: url(../img/inputBackground.png) no-repeat center center;
+    border-color: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    width: 250px;
+    margin-right: -10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.email-input-sign-up{
+    background: url(../img/signupInputBackground.png) no-repeat center center;
+    border-color: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    width: 250px;
+    margin-right: -10px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sign-up-button {
+    background: url(../img/signupButtonBackground.png) no-repeat center center;
+    border-color: transparent;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    width: 100px;
+    color: white;
+}
+
+.left-chevron-button {
+    background: url(../img/chevronLeft.png) no-repeat center center;
+    border-color: transparent;
+    width: 80px;
+    height: 80px;
+    color: white;
+}
+
+.right-chevron-button {
+    background: url(../img/chevronRight.png) no-repeat center center;
+    border-color: transparent;
+    width: 80px;
+    height: 80px;
+    color: white;
 }
 
 .intro-message {
@@ -61,9 +117,13 @@ p
 
 .intro-message > h3 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    padding-bottom:20px;
+    padding-bottom:10px;
     font-size: 28px;
+}
+.intro-message > h4 {
+    margin: 0;
+    padding-bottom:20px;
+    font-size: 20px;
 }
 .intro-divider {
     width: 400px;
@@ -72,21 +132,21 @@ p
 }
 
 .intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     padding-top: 20px;
     margin-top: 7%;
     line-height: 40px;
 }
 .iphone img{
     display: block;
-    width: 100%;
+    width: 290px;
+    height: 450px;
     margin: 0 auto;
 } 
 
 .logo {
-    width: 210px;
-    height: 180px;
-    margin-bottom: -5%;
+    width: 150px;
+    height: 120px;
+    margin-bottom: -15%;
 } 
 
 @media(max-width:767px) {
@@ -111,9 +171,6 @@ p
     .intro-divider {
         width: 100%;
     }
-    .container{
-
-    }
 }
 
 .network-name {
@@ -125,7 +182,7 @@ p
 
 .howworks  {
     padding: 50px 0 0 0;
-    background-image:url(../img/bg_sec2.svg);
+    background-image:url(../img/section2Background.png);
     background-size: cover;
 }
 
@@ -169,40 +226,60 @@ p
     height: auto;
 }
 
+.howworks-phone-container{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 350px;
+    overflow: hidden;
+}
+
+.howworks-friend-phone-container{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 375px;
+    overflow: hidden;
+}
+
+.howworks-phone{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+}
+
 .columns{
     padding-bottom: 30px;
 }
 .howworks h2 {
     margin-top: 15px;
     margin-bottom: 50px;
-    font-size: 38px;
+    font-size: 28px;
 }
 .howworks p {
-    color: #D8D9DD;
+    color: white;
     margin-top: 10px;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
     font-size: 18px;
 }
 
 .features{
     padding: 50px 0 0 0;
-    background-image:url(../img/bg_sec3.svg);
+    background-image:url(../img/section3Background.png);
     background-size: cover;
 }
 
 .features h2{
-    color: white;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    color: #e0554a;
     text-align: center;
-    font-size: 38px;
+    font-size: 28px;
 }
 
 .features p{
-    color: #F2E8E2;
-    font-size: 18px;
-    line-height: 20px;
+    color: white;
+    font-size: 14px;
     text-align: left;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
 .features a img{
@@ -212,19 +289,14 @@ p
     margin-top: -65px;
 }
 
-.lists  {
-    margin:0 auto;
-    padding: 60px 0px;
-}
-
 .lists h3 {
     color: white;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    text-align: left;
+    font-size: 20px;
 }
 
 ul {
-    list-style-image:url(../img/icon_gift.png); 
-    color: #EDD0C5;
+    list-style: none; 
 }
 .wish img{
     width: 60px;
@@ -237,26 +309,34 @@ ul {
 .img-container{
     margin:0 auto;
     padding: 60px 0px;  
+    text-align:center;
 }
 
 .img-responsive{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto; 
     max-width: 100%;
-    height: auto;
     padding: 0 40px;
 } 
 
 .signup {
     padding: 50px 0 0 0;
-    background-image:url(../img/bg_signup.svg);
+    background-image:url(../img/section4Background.png);
     background-size: cover;
 }
 
 .signup h2{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    color: #e0554a;
     text-align: center;
-    margin-top: 64px;
-    line-height: 35px;
+    font-size: 28px;
+} 
+.signup h3{
+    color: #EF756B;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
 } 
 .signup h4{
     font-family: Roboto;
@@ -268,20 +348,39 @@ ul {
 
 .signup p{
     color: #EF756B;
-    padding-top: 15px;
-    font-size: 13px;
+    padding-top: 5px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 400;
 }  
 
 .signup a{
     margin: auto;
 }
 
-.fb-icon{
+.signupListContainer{
+    border-color: #EF756B;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 20px;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.gifthub-icon{
     text-align: center;
 } 
 
-.fb-icon p{
+.gifthub-icon p{
     color: #EF756B;
+    text-align: center;
+}
+
+.gifthub-img{
+    width: 70px;
+    height: 70px;
 }
 
 .icon img{
@@ -331,9 +430,6 @@ ul {
     color: #ffffff;
     border: none;
 }
-.submit a{
-    /* margin:auto; */
-} 
 .button:hover {
     background: #DB6A5E;
     color: #ffffff;
@@ -356,12 +452,14 @@ a.button {
     color: #E87064;
     display: block;
     margin: 0 auto;
+    text-align: center;
 } 
 
 .form-inline p{
     font-family: Roboto;
-    font-size: 18px;
+    font-size: 12px;
     text-align: left;
+    text-align: center;
 }
 
 .btn {
@@ -372,7 +470,6 @@ a.button {
     height: 55px;
 }
 
-
 .form{
     padding: 6 20 6 20px;
 }
@@ -382,7 +479,7 @@ a.button {
     text-decoration: none;
 }
 .gn p{
- color: :#E87064; 
+ color: #E87064; 
 }
 
 .glyphicon{
@@ -403,16 +500,24 @@ a.button {
 .stores{
     list-style-type: none;
     text-align: center;
-    padding: 0px;
+    margin-top: -52px;
 }
 
 .stores li{
     width: 150px;
     display: inline-block;
-
 }
 
+.signup-stores{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 50px;
+}
 
+.signup-stores li{
+    width: 150px;
+    display: inline-block;
+}
 
 @media only screen and (max-width: 500px){
     .form-control{
@@ -449,13 +554,45 @@ a.button {
     }
 }
 
-
 footer {
     padding: 10px 0;
-    background-color: #280C0A;
+    background-color: #E87064;
 }
 
 p.copyright {
-    margin: 15px 0 0;
-    color: #EF756B;
+    margin: 5px 0 0;
+    color: white;
 }   
+
+input::-webkit-input-placeholder {
+    color: white !important;
+}
+    
+input:-moz-placeholder { /* Firefox 18- */
+    color: white !important;  
+}
+    
+input::-moz-placeholder {  /* Firefox 19+ */
+    color: white !important;  
+}
+    
+input:-ms-input-placeholder {  
+    color: white !important;  
+}
+
+.slide {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto; 
+    max-width: 100%;
+}
+
+.slideshow-container {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 600px; 
+    max-width: 100%;
+}

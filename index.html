@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,8 +21,7 @@
 
     <!-- Custom Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:400,100" rel="stylesheet">
 </head>
 
 <body>
@@ -31,139 +29,213 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-12">
-                <img src= "img/logo.png" class="logo">  <div class="intro-message">
-                <h1>Your gift come true!</h1>
-                <h3>GiftHub is an app that helps you to<br>
-                    give and get the right gifts</h3> 
+                <img src= "img/logoTest.png" class="logo">  <div class="intro-message">
+                <h3>The Right Gift Delivered</h3> 
+                <h4>GiftHub helps you give and get<br>
+                    the right gifts all year long</h4> 
                 </div> 
+            <div>
+                <p>Tired of getting the wrong gift or giving the same gift as<br>
+                    someone else? Sign up to become one of our beta testers!</p> 
+            </div>
+            <div>
+                <input class="email-input" type="text" name="Email" id="emailInput1" placeholder="Email">
+                <button class="sign-up-button" type="button" onclick="submitEmail('#emailInput1')">Sign Up</button>
+            </div>
             </div>
             <div class="col-md-6 col-sm-12">
                 <div class="iphone">
-                    <img src="img/phone.png">
+                    <img src="img/phoneHand.png">
+                </div>
+                <div>
+                    <ul class="stores">
+                        <li>
+                            <a href="https://itunes.apple.com/app/gifthub/id627542854?mt=8&amp;ign-mpt=uo%3D4">
+                                <img src="img/appstoreBadge.png" alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://play.google.com/store/apps/details?id=com.gifthub.prod">
+                                <img src="img/playBadge.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
         </div>
     </div>
-    <!-- /.container -->
-
 </div>
-<!-- /.intro-header -->
-<!-- Page Content -->
 
 <section class="howworks" id="How works!">
     <div class="container">
-        <div class= "row">
+        <div class="row">
             <div class="col-md-12">  
-              <!-- <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span><-->
+              <h2>How to use it</h2>
 
-              <a class= "down-icon" href="#How works!"><img src= "img/down.svg"/> </a>
-              <h2>How does it work?</h2>
+                <div class="col-md-4">
+                    <p>Mark an item as "purchased"<br> after you've bought it.</p> 
+                    <div class="howworks-phone-container">
+                        <img class="howworks-phone" src="img/purchasedPhone.png"/>
+                    </div>
+                </div>
 
-              <div class="col-md-4">
-                <img src="img/friends1.png" class="howworks-icon">
-                <p><strong>Add your favorite items</strong> and friends.</p> 
+                <div class="col-md-4">
+                    <p>Find and Add your friends.</br> </p> 
+                    <div class="howworks-friend-phone-container">
+                        <img class="howworks-phone" src="img/friendsPhone.png"/>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <p>Add items to your list by taking a</br>picture of it or uploading one.</p> 
+                    <div class="howworks-phone-container">
+                        <img class="howworks-phone" src="img/myListPhone.png"/>
+                    </div>
+                </div>
             </div>
+        </div>
+    </div>
+</section>
 
-            <div class="col-md-4">
-                <div class="wish">
-                    <img src="img/wish.svg" class="howworks-icon">
-                    <p>Save an item and add it to your <br><strong>gift list.</strong></p>
+<section class="features" id="Other great features!">
+    <div class="container-feat">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>More Cool Stuff</h2>
+            </div>
+            <div class="col-md-4 col-md-offset-1 col-sm-12 col-xs-12">
+                <div class="lists">
+                    <ul>
+                        <li>
+                            <h3>Dibs</h3>
+                            <p>
+                                Find something on your friends list you want to buy? Call "Dibs"
+                                on it so everybody knows. Cause nothing is more awkward than
+                                giving the same gift as someone else.
+                            </p>
+                        </li>
+                        <li>
+                            <h3>No Random Gifts</h3>
+                            <p>
+                                Store all your gift lists in one place where it is quick and easy for
+                                friends and family to get you exactly what you want and none of
+                                the stuff you don't.
+                            </p>
+                        </li>
+                        <li>
+                            <h3>Be A Know It All</h3>
+                            <p>
+                                Gifthub makes it easy to get your family & friends what they want.
+                                You can access and purchase items on their gift lists whenever 
+                                you want. All in secret.
+                            </p>
+                        </li>
+                        <li>
+                            <h3>No Account Creation</h3>
+                            <p>
+                                Sign up using just phone number (Facebook integration
+                                coming soon!)
+                            </p>
+                        </li>
+                        <li>
+                            <h3>Beyond Christmas</h3>
+                            <p>
+                                Gifthub is perfect for, yes, Christmas, but also for wedding and
+                                baby registries, anniversaries, birthdays, and more.
+                            </p>
+                        </li>
+                        <li>
+                            <h3>Know What's Happening</h3>
+                            <p>
+                                Get alerts when your friends call "Dibs" or purchase an item on
+                                your list. However, you won't know what the item is.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-8 col-xs-12 text-center">
+                <div class="img-container">
+                    <button id="leftChevronButton" class="left-chevron-button" type="button" onclick="slideshowPrevious()"></button>
+                            <div id="slideshow1" class="slide">
+                                <img src="img/featuresPhone1.png">   
+                            </div>
+                            <div id="slideshow2" class="slide" style="display: none">
+                                <img src="img/featuresPhone2.png">  
+                            </div>
+                            <div id="slideshow3" class="slide" style="display: none">
+                                <img src="img/featuresPhone3.png">  
+                            </div>
+                            <div id="slideshow4" class="slide" style="display: none">
+                                <img src="img/featuresPhone4.png">  
+                            </div>
+                    <button id="rightChevronButton" class="right-chevron-button" type="button" onclick="slideshowNext()"></button>
+                    <input type="hidden" id="pictureDisplayed" value="1">
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <img src="img/shop.svg" class="howworks-icon3">
-                <p>Mark a gift as “Purchased” when you’ve <strong>shopped.</strong></p>
-
-            </div>
-        </div>
-        <div class="col-md-8 col-md-offset-2 col-sm-12">
-            <img src="img/mockups.png" class="mockups"/>
-
         </div>
     </div>
-</div>
-</div>
-</div>
-
-</section>
-<section class="features" id="Other great features!">
-   <div class="container-feat">
-    <div class="row">
-
-        <div class="col-md-12">
-         <a class= "down-icon" href="#Other great features!"><img src= "img/down.svg"/> </a>
-         <h2>Other great features!</h2>
-     </div>
-
-     <div class="col-md-5 col-md-offset-1 col-sm-8 col-sm-offset-2 col-xs-12 text-center">
-       <div class="img-container">
-           <img class="img-responsive" src="img/device.png">
-       </div>
-
-   </div>
-   <div class="col-md-4 col-md-offset-1 col-sm-12 col-xs-12 ">
-    <div class="lists">
-     <ul>
-        <li>
-            <h3>Did you see something to buy to a friend?</h3>
-            <p>Mark it as divs and let others know you may buy that item.</p>
-            <br>
-        </li>
-        <li>
-            <h3>You'll never have to ask what to buy!</h3>
-            <p>You'll instantly know what's available to be purchased on your friends list (while it all remains a secret).</p>
-            <br>
-        </li>
-        <li>
-            <h3>Know when there's activity on your list!</h3>
-            <p>You'll be notified if someone has marked an item as dibs or purchased, but you won't know what item it is.</p>
-            <br>
-        </li>
-    </ul>
-</div>
-</div>
-
-</div>
-</div>
 </section> 
 
 <section class="signup">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2>GiftHub helps you give and receive the right gifts</h2>
-                <h4><strong>Are you tired of not knowing what to give when you're choosing a present?</strong> <br>If so, sign up <strong>NOW </strong> and be one of our dear <strong>beta testers</strong> once we release. </h4> 
+                <h2>What's Next</h2>
+            </div>
+            <div class="col-md-12">
+                <h3>Features we're working on now that you can expect too soon!</h3>
+                <div class="signupListContainer">
+                    <ul>
+                        <li>
+                            <p>Feature 1 - Lorem Ipsum</p>
+                        </li>
+                        <li>
+                            <p>Feature 2 - Lorem Ipsum</p>
+                        </li>
+                        <li>
+                            <p>Feature 3 - Lorem Ipsum</p>
+                        </li>
+                        <li>
+                            <p>Feature 4 - Lorem Ipsum</p>
+                        </li>
+                    </ul>
+                </div>
 
                 <form class="form-inline">
-                    <p> Get exclusive beta Updates</p>
+                        <h2>Become a Beta Tester</h2>
+                        <p>Sign up to receive exclusive beta updates once we release them.</p>
                     <div class="form-group">
-                        <label for="exampleInputEmail2"></label>
-                        <input type="email" class="form-control" id="exampleInputEmail2" name="email" placeholder="Email">
+                        <label for="emailInput2"></label>
+                        <input type="email" class="email-input-sign-up" id="emailInput2" name="email" placeholder="Email">
                     </div>
-                    <button type="button" class="btn btn-default" onclick="submitEmail()">Sign Up</button>
+                    <button type="button" class="sign-up-button" onclick="submitEmail('#emailInput2')">Sign Up</button>
                 </form>
+
+                <div>
+                    <ul class="signup-stores">
+                        <li>
+                            <a href="https://itunes.apple.com/app/gifthub/id627542854?mt=8&amp;ign-mpt=uo%3D4">
+                                <img src="img/appstoreBadge.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://play.google.com/store/apps/details?id=com.gifthub.prod">
+                                <img src="img/playBadge.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
     <div class="container contact">
          <div class="row">
-            <div class="col-md-6  col-sm-12 col-xs-12">
-                <ul class="stores">
-                <p>Available soon in </p>
-                    <li>
-                        <img src="img/appstore.svg" alt="">
-                    </li>
-                    <li>
-                        <img src="img/play.svg" alt="">
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-6 col-sm-12 col-xs-12">
-                <div class="fb-icon">
-                    <p>Find Us</p>
-                    <a class="icon" href="https://www.facebook.com/AcklenAvenueGiftHub/?fref=ts"><img src="img/fb.svg">
+            <div class="col-md-12">
+                <div class="gifthub-icon">
+                    <img class="gifthub-img" src="img/gifthubIcon.png" alt="">    
+                    <p> Gifthub. Your gift come true.</p>  
                 </div>
             </div>
          </div>
@@ -175,8 +247,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-
-                <p class="copyright text-muted small">Made by Acklen Avenue, LLC, 2016</p>
+                <p class="copyright text-muted medium">Made by Acklen Avenue, LLC, 2016</p>
             </div>
         </div>
     </div>
@@ -194,15 +265,15 @@
         window.location.href = 'https://play.google.com/store/apps/details?id=com.acklenavenue.gifthub&hl=en'
     }
     
-    var submitEmail = function(){
-        var email = $('#exampleInputEmail2').val();
+    var submitEmail = function(inputId){
+        var email = $(inputId).val();
         $.ajax({
             type: "POST",
-            url: "https://gifthub-data.herokuapp.com/email",
-            data: {email: email},
+            url: "http://gifthub-backend-production.us-east-1.elasticbeanstalk.com/invitation/",
+            data: {numbers: [""], emails: [email]},
             success: function(response){
                 swal("Thanks for signing up!!", "We're excited to have on our group of early beta testers. As soon as the app has launched, we expect to see you unwrapping your gifts and sending some to those you hold dearest! In the meantime, we would love to hear what you think about our app idea!", "success");
-                $('#exampleInputEmail2').val("");
+                $(inputId).val("");
             },
             error: function(error){
                 console.log(error)
@@ -210,6 +281,30 @@
             },
             crossDomain: true
         });
+    }
+
+    var slideshowNext = function() {
+        var start = 1;
+        var end = 4;
+        var frame = $('#pictureDisplayed').val();
+        $('#slideshow' + frame).fadeOut();
+        if (frame == end) { frame = start; } else { frame = parseInt(frame) + 1; }
+        setTimeout(function(){ 
+            $('#slideshow' + frame ).fadeIn();
+        }, 400);
+        $('#pictureDisplayed').val(frame);
+    }
+
+    var slideshowPrevious = function() {
+        var start = 1;
+        var end = 4;
+        var frame = $('#pictureDisplayed').val();
+        $('#slideshow' + frame).fadeOut();
+        if (frame == start) { frame = end; } else { frame = parseInt(frame) - 1; }
+        setTimeout(function(){ 
+            $('#slideshow' + frame ).fadeIn();
+        }, 400);
+        $('#pictureDisplayed').val(frame);
     }
 </script>
 
